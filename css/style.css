@@ -1,0 +1,44 @@
+html{
+    font-family: 'lato', sans-serif;
+}
+#header {
+    background-image: url(../images/bg-intro-desktop.png),linear-gradient(rgba(238, 16, 109, 0.863),rgba(209, 60, 184, 0.568),rgba(238, 16, 109, 0.863));
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+#header .title {
+    color: rgb(76, 18, 131);
+}
+#header .title-para {
+    font-weight: bold;
+}
+#header .try-it {
+    background: rgb(76, 18, 131);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+#header .try-it:hover {
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
+   transform: scale(1.05);
+   background: rgba(76, 18, 131, 0.281);
+}
+#header .terms-2 {
+    color: rgba(238, 16, 109, 0.863);
+}
+#header .card {
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+#header .card input:hover {
+    border: 2px solid rgba(238, 16, 109, 0.863);
+}
+#header .card .claim-button {
+    margin-bottom: 20px !important;
+}
+#header .card .claim-button:hover {
+    background: rgba(238, 16, 108, 0.692);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
